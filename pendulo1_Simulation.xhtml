@@ -140,6 +140,7 @@ var _stringProperties = {};
   var view_r; // EjsS Model.Variables.viewFlags.view_r
   var view_s; // EjsS Model.Variables.viewFlags.view_s
   var view_v; // EjsS Model.Variables.viewFlags.view_v
+  var view_vs; // EjsS Model.Variables.viewFlags.view_vs
   var view_a; // EjsS Model.Variables.viewFlags.view_a
   var view_as; // EjsS Model.Variables.viewFlags.view_as
   var view_end; // EjsS Model.Variables.viewFlags.view_end
@@ -231,6 +232,7 @@ var _stringProperties = {};
       view_r : view_r,
       view_s : view_s,
       view_v : view_v,
+      view_vs : view_vs,
       view_a : view_a,
       view_as : view_as,
       view_end : view_end,
@@ -314,6 +316,7 @@ var _stringProperties = {};
       view_r : view_r,
       view_s : view_s,
       view_v : view_v,
+      view_vs : view_vs,
       view_a : view_a,
       view_as : view_as,
       view_end : view_end,
@@ -394,6 +397,7 @@ var _stringProperties = {};
     if(typeof json.view_r != "undefined") view_r = json.view_r;
     if(typeof json.view_s != "undefined") view_s = json.view_s;
     if(typeof json.view_v != "undefined") view_v = json.view_v;
+    if(typeof json.view_vs != "undefined") view_vs = json.view_vs;
     if(typeof json.view_a != "undefined") view_a = json.view_a;
     if(typeof json.view_as != "undefined") view_as = json.view_as;
     if(typeof json.view_end != "undefined") view_end = json.view_end;
@@ -473,6 +477,7 @@ var _stringProperties = {};
     if(typeof json.view_r != "undefined") view_r = json.view_r;
     if(typeof json.view_s != "undefined") view_s = json.view_s;
     if(typeof json.view_v != "undefined") view_v = json.view_v;
+    if(typeof json.view_vs != "undefined") view_vs = json.view_vs;
     if(typeof json.view_a != "undefined") view_a = json.view_a;
     if(typeof json.view_as != "undefined") view_as = json.view_as;
     if(typeof json.view_end != "undefined") view_end = json.view_end;
@@ -577,6 +582,7 @@ var _stringProperties = {};
     view_r = false; // EjsS Model.Variables.viewFlags.view_r
     view_s = false; // EjsS Model.Variables.viewFlags.view_s
     view_v = false; // EjsS Model.Variables.viewFlags.view_v
+    view_vs = false; // EjsS Model.Variables.viewFlags.view_vs
     view_a = false; // EjsS Model.Variables.viewFlags.view_a
     view_as = false; // EjsS Model.Variables.viewFlags.view_as
     view_end = false; // EjsS Model.Variables.viewFlags.view_end
@@ -1111,16 +1117,16 @@ var _stringProperties = {};
           _view.v.linkProperty("Y",  function() { return y; }, function(_v) { y = _v; } ); // HtmlView Page linking property 'Y' for element 'v'
           _view.v.linkProperty("Visibility",  function() { return view_v; }, function(_v) { view_v = _v; } ); // HtmlView Page linking property 'Visibility' for element 'v'
           _view.v.linkProperty("SizeY",  function() { return vy; }, function(_v) { vy = _v; } ); // HtmlView Page linking property 'SizeY' for element 'v'
-          _view.a2.linkProperty("SizeX",  function() { return axt; }, function(_v) { axt = _v; } ); // HtmlView Page linking property 'SizeX' for element 'a2'
-          _view.a2.linkProperty("X",  function() { return x; }, function(_v) { x = _v; } ); // HtmlView Page linking property 'X' for element 'a2'
-          _view.a2.linkProperty("Y",  function() { return y; }, function(_v) { y = _v; } ); // HtmlView Page linking property 'Y' for element 'a2'
-          _view.a2.linkProperty("Visibility",  function() { return view_as; }, function(_v) { view_as = _v; } ); // HtmlView Page linking property 'Visibility' for element 'a2'
-          _view.a2.linkProperty("SizeY",  function() { return ayt; }, function(_v) { ayt = _v; } ); // HtmlView Page linking property 'SizeY' for element 'a2'
           _view.a.linkProperty("SizeX",  function() { return ax; }, function(_v) { ax = _v; } ); // HtmlView Page linking property 'SizeX' for element 'a'
           _view.a.linkProperty("X",  function() { return x; }, function(_v) { x = _v; } ); // HtmlView Page linking property 'X' for element 'a'
           _view.a.linkProperty("Y",  function() { return y; }, function(_v) { y = _v; } ); // HtmlView Page linking property 'Y' for element 'a'
           _view.a.linkProperty("Visibility",  function() { return view_a; }, function(_v) { view_a = _v; } ); // HtmlView Page linking property 'Visibility' for element 'a'
           _view.a.linkProperty("SizeY",  function() { return ay; }, function(_v) { ay = _v; } ); // HtmlView Page linking property 'SizeY' for element 'a'
+          _view.asv.linkProperty("SizeX",  function() { return axt; }, function(_v) { axt = _v; } ); // HtmlView Page linking property 'SizeX' for element 'asv'
+          _view.asv.linkProperty("X",  function() { return x; }, function(_v) { x = _v; } ); // HtmlView Page linking property 'X' for element 'asv'
+          _view.asv.linkProperty("Y",  function() { return y; }, function(_v) { y = _v; } ); // HtmlView Page linking property 'Y' for element 'asv'
+          _view.asv.linkProperty("Visibility",  function() { return view_as; }, function(_v) { view_as = _v; } ); // HtmlView Page linking property 'Visibility' for element 'asv'
+          _view.asv.linkProperty("SizeY",  function() { return ayt; }, function(_v) { ayt = _v; } ); // HtmlView Page linking property 'SizeY' for element 'asv'
           _view.T.linkProperty("SizeX",  function() { return 0.5*Tx; } ); // HtmlView Page linking property 'SizeX' for element 'T'
           _view.T.linkProperty("X",  function() { return x; }, function(_v) { x = _v; } ); // HtmlView Page linking property 'X' for element 'T'
           _view.T.linkProperty("Y",  function() { return y; }, function(_v) { y = _v; } ); // HtmlView Page linking property 'Y' for element 'T'
@@ -1148,6 +1154,7 @@ var _stringProperties = {};
           _view.as.linkProperty("Visibility",  function() { return view_as; }, function(_v) { view_as = _v; } ); // HtmlView Page linking property 'Visibility' for element 'as'
           _view.as.linkProperty("InputY",  function() { return as; }, function(_v) { as = _v; } ); // HtmlView Page linking property 'InputY' for element 'as'
           _view.vs.linkProperty("InputX",  function() { return t; }, function(_v) { t = _v; } ); // HtmlView Page linking property 'InputX' for element 'vs'
+          _view.vs.linkProperty("Visibility",  function() { return view_vs; }, function(_v) { view_vs = _v; } ); // HtmlView Page linking property 'Visibility' for element 'vs'
           _view.vs.linkProperty("InputY",  function() { return vs; }, function(_v) { vs = _v; } ); // HtmlView Page linking property 'InputY' for element 'vs'
           _view.bottomPanel.linkProperty("Width",  function() { return mainWidth; }, function(_v) { mainWidth = _v; } ); // HtmlView Page linking property 'Width' for element 'bottomPanel'
           _view.initButton.setAction("OnClick", _initialize); // HtmlView Page setting action 'OnClick' for element 'initButton'
@@ -1160,10 +1167,11 @@ var _stringProperties = {};
           _view.view_r.linkProperty("Checked",  function() { return view_r; }, function(_v) { view_r = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_r'
           _view.view_v.linkProperty("Checked",  function() { return view_v; }, function(_v) { view_v = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_v'
           _view.view_a.linkProperty("Checked",  function() { return view_a; }, function(_v) { view_a = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_a'
+          _view.view_s.linkProperty("Checked",  function() { return view_s; }, function(_v) { view_s = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_s'
+          _view.view_vs.linkProperty("Checked",  function() { return view_vs; }, function(_v) { view_vs = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_vs'
           _view.view_as.linkProperty("Checked",  function() { return view_as; }, function(_v) { view_as = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_as'
           _view.view_P.linkProperty("Checked",  function() { return view_P; }, function(_v) { view_P = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_P'
           _view.view_T.linkProperty("Checked",  function() { return view_T; }, function(_v) { view_T = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_T'
-          _view.view_s.linkProperty("Checked",  function() { return view_s; }, function(_v) { view_s = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_s'
           _view.view_pendulo2.linkProperty("Checked",  function() { return view_pendulo2; }, function(_v) { view_pendulo2 = _v; } ); // HtmlView Page linking property 'Checked' for element 'view_pendulo2'
           break;
       } // end of switch
@@ -1336,14 +1344,14 @@ function pendulo1_View_0 (_topFrame) {
       .setProperty("LineWidth",0.5) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 'v'
       ;
 
-    _view._addElement(EJSS_DRAWING2D.arrow,"a2", _view.plottingPanel) // EJsS HtmlView.HtmlView Page: declaration of element 'a2'
-      .setProperty("LineColor","rgba(0,64,0,1)") // EJsS HtmlView.HtmlView Page: setting property 'LineColor' for element 'a2'
-      .setProperty("LineWidth",0.5) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 'a2'
-      ;
-
     _view._addElement(EJSS_DRAWING2D.arrow,"a", _view.plottingPanel) // EJsS HtmlView.HtmlView Page: declaration of element 'a'
       .setProperty("LineColor","rgba(0,64,0,1)") // EJsS HtmlView.HtmlView Page: setting property 'LineColor' for element 'a'
       .setProperty("LineWidth",0.5) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 'a'
+      ;
+
+    _view._addElement(EJSS_DRAWING2D.arrow,"asv", _view.plottingPanel) // EJsS HtmlView.HtmlView Page: declaration of element 'asv'
+      .setProperty("LineColor","rgba(0,64,0,1)") // EJsS HtmlView.HtmlView Page: setting property 'LineColor' for element 'asv'
+      .setProperty("LineWidth",0.5) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 'asv'
       ;
 
     _view._addElement(EJSS_DRAWING2D.arrow,"T", _view.plottingPanel) // EJsS HtmlView.HtmlView Page: declaration of element 'T'
@@ -1379,7 +1387,7 @@ function pendulo1_View_0 (_topFrame) {
       .setProperty("Maximum",10000) // EJsS HtmlView.HtmlView Page: setting property 'Maximum' for element 's2'
       .setProperty("Skip",100) // EJsS HtmlView.HtmlView Page: setting property 'Skip' for element 's2'
       .setProperty("LineColor","Red") // EJsS HtmlView.HtmlView Page: setting property 'LineColor' for element 's2'
-      .setProperty("LineWidth",2) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 's2'
+      .setProperty("LineWidth",1) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 's2'
       .setProperty("NoRepeat",true) // EJsS HtmlView.HtmlView Page: setting property 'NoRepeat' for element 's2'
       ;
 
@@ -1387,7 +1395,7 @@ function pendulo1_View_0 (_topFrame) {
       .setProperty("Maximum",10000) // EJsS HtmlView.HtmlView Page: setting property 'Maximum' for element 's'
       .setProperty("Skip",100) // EJsS HtmlView.HtmlView Page: setting property 'Skip' for element 's'
       .setProperty("LineColor","Blue") // EJsS HtmlView.HtmlView Page: setting property 'LineColor' for element 's'
-      .setProperty("LineWidth",2) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 's'
+      .setProperty("LineWidth",1) // EJsS HtmlView.HtmlView Page: setting property 'LineWidth' for element 's'
       .setProperty("NoRepeat",true) // EJsS HtmlView.HtmlView Page: setting property 'NoRepeat' for element 's'
       ;
 
@@ -1401,7 +1409,7 @@ function pendulo1_View_0 (_topFrame) {
     _view._addElement(EJSS_DRAWING2D.trail,"vs", _view.plottingPanel2) // EJsS HtmlView.HtmlView Page: declaration of element 'vs'
       .setProperty("Maximum",10000) // EJsS HtmlView.HtmlView Page: setting property 'Maximum' for element 'vs'
       .setProperty("Skip",10) // EJsS HtmlView.HtmlView Page: setting property 'Skip' for element 'vs'
-      .setProperty("Visibility",false) // EJsS HtmlView.HtmlView Page: setting property 'Visibility' for element 'vs'
+      .setProperty("LineColor","rgba(0,150,0,1)") // EJsS HtmlView.HtmlView Page: setting property 'LineColor' for element 'vs'
       .setProperty("NoRepeat",true) // EJsS HtmlView.HtmlView Page: setting property 'NoRepeat' for element 'vs'
       ;
 
@@ -1462,6 +1470,14 @@ function pendulo1_View_0 (_topFrame) {
       .setProperty("Text","a") // EJsS HtmlView.HtmlView Page: setting property 'Text' for element 'view_a'
       ;
 
+    _view._addElement(EJSS_INTERFACE.checkBox,"view_s", _view.bottomCell3) // EJsS HtmlView.HtmlView Page: declaration of element 'view_s'
+      .setProperty("Text","s") // EJsS HtmlView.HtmlView Page: setting property 'Text' for element 'view_s'
+      ;
+
+    _view._addElement(EJSS_INTERFACE.checkBox,"view_vs", _view.bottomCell3) // EJsS HtmlView.HtmlView Page: declaration of element 'view_vs'
+      .setProperty("Text","vs") // EJsS HtmlView.HtmlView Page: setting property 'Text' for element 'view_vs'
+      ;
+
     _view._addElement(EJSS_INTERFACE.checkBox,"view_as", _view.bottomCell3) // EJsS HtmlView.HtmlView Page: declaration of element 'view_as'
       .setProperty("Text","a_s") // EJsS HtmlView.HtmlView Page: setting property 'Text' for element 'view_as'
       ;
@@ -1472,10 +1488,6 @@ function pendulo1_View_0 (_topFrame) {
 
     _view._addElement(EJSS_INTERFACE.checkBox,"view_T", _view.bottomCell3) // EJsS HtmlView.HtmlView Page: declaration of element 'view_T'
       .setProperty("Text","T") // EJsS HtmlView.HtmlView Page: setting property 'Text' for element 'view_T'
-      ;
-
-    _view._addElement(EJSS_INTERFACE.checkBox,"view_s", _view.bottomCell3) // EJsS HtmlView.HtmlView Page: declaration of element 'view_s'
-      .setProperty("Text","s") // EJsS HtmlView.HtmlView Page: setting property 'Text' for element 'view_s'
       ;
 
     _view._addElement(EJSS_INTERFACE.checkBox,"view_pendulo2", _view.bottomCell3) // EJsS HtmlView.HtmlView Page: declaration of element 'view_pendulo2'
