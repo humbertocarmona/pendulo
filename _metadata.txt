@@ -1,0 +1,21 @@
+generated-with: Easy Java/Javascript Simulations, version 6.01, build 201013. Visit http://www.um.es/fem/Ejs
+title: Pêndulo Simples
+logo-image: figs/pendulo1_pic.png
+author: Humberto Carmona
+copyright: Humberto Carmona, H. Carmona
+preferred-width: 800
+preferred-height: 600
+author-image: figs/HAC_logo.png
+source: pendulo1.ejss
+main-script: 
+main-simulation: pendulo1_Simulation.xhtml
+available-languages: 
+html-description: pendulo1_Intro_1.html
+html-contents: pendulo1_Contents.xhtml
+html-main: pendulo1.xhtml
+page-title: Introdução
+page-index: pendulo1_Intro_1.html
+page-title: Pêndulo Simples
+page-index: pendulo1_Simulation.xhtml
+resource: figs/pendulo1_pic.png
+resource: figs/HAC_logo.png

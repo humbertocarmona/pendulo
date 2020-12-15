@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+<ModulePrefs
+title="pendulo1"
+author="Humberto Carmona"
+description=""
+screenshot="./figs/pendulo1_pic.png"
+thumbnail="./figs/pendulo1_pic.png">
+<Require feature="opensocial-0.9"/>
+<Require feature="dynamic-height"/>
+</ModulePrefs>
+<Content type="html" href="pendulo1_Simulation.xhtml"/>
+</Module>
